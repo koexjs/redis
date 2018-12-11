@@ -1,25 +1,25 @@
-# koa-redis
+# redis
 
-[![NPM version](https://img.shields.io/npm/v/@zcorky/koa-redis.svg?style=flat)](https://www.npmjs.com/package/@zcorky/koa-redis)
-[![Coverage Status](https://img.shields.io/coveralls/zcorky/koa-redis.svg?style=flat)](https://coveralls.io/r/zcorky/koa-redis)
-[![Dependencies](https://david-dm.org/@zcorky/koa-redis/status.svg)](https://david-dm.org/@zcorky/koa-redis)
-[![Build Status](https://travis-ci.com/zcorky/koa-redis.svg?branch=master)](https://travis-ci.com/zcorky/koa-redis)
-![license](https://img.shields.io/github/license/zcorky/koa-redis.svg)
-[![issues](https://img.shields.io/github/issues/zcorky/koa-redis.svg)](https://github.com/zcorky/koa-redis/issues)
+[![NPM version](https://img.shields.io/npm/v/@koex/redis.svg?style=flat)](https://www.npmjs.com/package/@koex/redis)
+[![Coverage Status](https://img.shields.io/coveralls/koexjs/redis.svg?style=flat)](https://coveralls.io/r/koexjs/redis)
+[![Dependencies](https://img.shields.io/david/koexjs/redis.svg)](https://github.com/koexjs/redis)
+[![Build Status](https://travis-ci.com/koexjs/redis.svg?branch=master)](https://travis-ci.com/koexjs/redis)
+![license](https://img.shields.io/github/license/koexjs/redis.svg)
+[![issues](https://img.shields.io/github/issues/koexjs/redis.svg)](https://github.com/koexjs/redis/issues)
 
-> helmet for Koa, wrapper with helmet.
+> redis for koa extend, based on ioredis.
 
 ### Install
 
 ```
-$ npm install @zcorky/koa-redis
+$ npm install @koex/redis
 ```
 
 ### Usage
 
 ```javascript
 // See more in test
-import redis from '@zcorky/koa-redis';
+import redis from '@koex/redis';
 
 import * as Koa from 'koa';
 const app = new Koa();
