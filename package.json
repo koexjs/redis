@@ -1,6 +1,6 @@
 {
   "name": "@koex/redis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "redis for koa extend",
   "main": "lib/index.js",
   "module": "lib/index.js",
@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "@types/debug": "^0.0.31",
-    "@types/ioredis": "^4.0.4",
     "@types/koa": "^2.0.47",
     "@types/mocha": "^5.2.5",
     "@types/node": "^10.9.4",
@@ -67,6 +66,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@types/ioredis": "^4.0.4",
     "ioredis": "^4.2.0"
   }
 }

@@ -10,7 +10,7 @@ declare module 'koa' {
 export default (options?: ioredis.RedisOptions) => {
   const redis = new ioredis(options);
 
-  return async function helmet(ctx: Context, next: () => Promise<void>) {
+  return async function koexRedis(ctx: Context, next: () => Promise<void>) {
     if (!ctx.redis) {
       ctx.redis = redis;
     }
